@@ -1,0 +1,162 @@
+.productdisplay{
+    display: flex;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0 170px;
+    margin-bottom: 200px;
+
+}
+
+.productdisplay-left{
+    display: flex;
+    gap: 17px;
+    
+}
+
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.productdisplay-img-list img{
+    height: 163px;
+}
+.productdisplay-main-img{
+    width: 586px;
+    height: 700px;
+}
+
+.productdisplay-right{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.productdisplay-right h1{
+    color: #3d3d3d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.productdisplay-right-star{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    gap: 5px;
+    color: #1c1c1c;
+    font-size: 16px;
+}
+
+.productdisplay-right-prices{
+    display: flex;
+    margin: 40px 0px;
+    gap: 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.productdisplay-right-price-old{
+    color: #818181;
+    text-decoration: line-through;
+
+}
+.productdisplay-right-price-new{
+    color: #ff4141;
+}
+.productdisplay-right-size h1{
+    margin-top: 55px;
+    color: #656565;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.productdisplay-right-sizes{
+    display: flex;
+    margin: 30px 0px;
+    gap: 20px;
+
+}
+.productdisplay-right-sizes div{
+    padding: 18px 24px;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.productdisplay-right button{
+    padding: 15px 30px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #1b6f8b;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: background 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.productdisplay-right button:hover {
+    background: #6db5db; /* Darken the background color on hover */
+}
+
+.productdisplay-right button:active {
+    transform: translateY(2px); /* Add slight downward shift when button is clicked */
+}
+.productdisplay-comments {
+    margin-top: 20px;
+}
+
+.productdisplay-comments h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.productdisplay-comments form button {
+    padding: 8px 16px; /* Smaller padding for button */
+    font-size: 14px; /* Smaller font size for button */
+    font-weight: bold;
+    color: white;
+    background-color: #e678ce; /* Change button color */
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.productdisplay-comments form button:hover {
+    background-color: #da8cc3; /* Darken button color on hover */
+}
+.productdisplay-comments form textarea {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ee7b7b;
+    border-radius: 7px;
+    font-family: 'Roboto', Arial, sans-serif; /* Change to a good font */
+    font-size: 16px; /* Increase font size for better readability */
+    resize: vertical;
+    transition: border-color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.productdisplay-comments form textarea:hover,
+.productdisplay-comments form textarea:focus {
+    border-color: #4CAF50; /* Change border color on hover/focus */
+    outline: none; /* Remove default outline */
+}
+
+.comment-list {
+    margin-top: 20px;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', Arial, sans-serif; /* Change to a good font */
+    font-size: 16px; /* Increase font size for better readability */
+}
+

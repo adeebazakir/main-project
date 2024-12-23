@@ -1,0 +1,30 @@
+/* Hero.css */
+.hero {
+    height: 120vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    display: flex;
+    overflow: hidden;
+}
+
+/* Update styles for each slide */
+.hero-slide {
+    width: 100%;
+    position: relative;
+}
+
+/* Ensure each slide is displayed as a flex container */
+.hero-slide img {
+    width: 100%;
+    height: auto;
+}
+
+/* Styles for the Slider component */
+.slick-slider {
+    width: 100%;
+}
+
+.slick-slide {
+    outline: none;
+}
+
+
